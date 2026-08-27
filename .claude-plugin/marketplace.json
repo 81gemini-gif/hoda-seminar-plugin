@@ -1,0 +1,20 @@
+{
+  "name": "hoda-seminar",
+  "owner": {
+    "name": "慶應義塾大学SFC 保田隆明研究会"
+  },
+  "metadata": {
+    "description": "保田研究会の活動標準を配布するマーケットプレイス",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hoda-seminar",
+      "source": "./plugins/hoda-seminar",
+      "description": "保田研究会の活動標準。財務分析、スライド作法、プロジェクトワーク、実証分析、ゼミ運営の型をスキル化しています。",
+      "version": "0.1.0",
+      "category": "seminar",
+      "tags": ["corporate-finance", "esg", "human-capital", "keio-sfc", "seminar"]
+    }
+  ]
+}

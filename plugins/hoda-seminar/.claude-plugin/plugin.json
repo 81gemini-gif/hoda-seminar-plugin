@@ -1,0 +1,7 @@
+{
+  "name": "hoda-seminar",
+  "version": "0.1.0",
+  "description": "慶應SFC保田隆明研究会の活動標準を共有するプラグイン。財務分析、スライド作法、プロジェクトワーク、実証分析、ゼミ運営の型をスキル化しています。",
+  "author": { "name": "保田研究会" },
+  "keywords": ["corporate-finance", "esg", "human-capital", "keio-sfc", "seminar"]
+}
