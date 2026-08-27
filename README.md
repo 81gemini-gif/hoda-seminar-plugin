@@ -11,7 +11,7 @@
 Claude Desktop の Cowork、またはチャットで以下を実行します。**最初の一度だけ。**
 
 ```
-/plugin marketplace add 81gemini/hoda-seminar-plugin
+/plugin marketplace add 81gemini-gif/hoda-seminar-plugin
 ```
 
 続けてプラグインをインストールします。
