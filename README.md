@@ -8,19 +8,30 @@
 
 ## ゼミ生向け：インストール方法
 
-Claude Desktop の Cowork、またはチャットで以下を実行します。**最初の一度だけ。**
+Claude Desktop（Coworkタブ）または claude.ai で、以下の手順を **最初の一度だけ** 行います。
+
+### 1. マーケットプレイスを追加する
+
+1. Coworkタブを開く
+2. 左サイドバーの **「Customize」** を開く
+3. **「Plugins」** タブを開く
+4. **「Personal plugins」** の欄にある **「+」** ボタンをクリック
+5. **「Add marketplace」** を選ぶ
+6. **「Add from a repository」** を選び、下を貼り付ける
 
 ```
-/plugin marketplace add 81gemini-gif/hoda-seminar-plugin
+81gemini-gif/hoda-seminar-plugin
 ```
 
-続けてプラグインをインストールします。
+> Privateリポジトリなので、**事前にCollaboratorとして招待されている必要があります。** 招待が届いていない場合はゼミ長に連絡してください。
 
-```
-/plugin install hoda-seminar@hoda-seminar
-```
+### 2. プラグインをインストールする
 
-以降は、普通に話しかけるだけで該当するスキルが自動で立ち上がります。
+追加したマーケットプレイスの中に **hoda-seminar** が出てくるので、**「Install」** をクリックします。
+
+### 3. 使う
+
+以降は普通に話しかけるだけで、該当するスキルが自動で立ち上がります。
 
 ```
 「〇〇株式会社のROICツリーを作って」
@@ -28,6 +39,10 @@ Claude Desktop の Cowork、またはチャットで以下を実行します。*
 「合同ゼミの幹事になったんだけど何から始めればいい？」
 「360度FBのGoodコメントの下書きを手伝って」
 ```
+
+`/` を入力するか `+` ボタンを押すと、使えるスキルの一覧が出ます。
+
+> **注意**：`/plugin marketplace add` というコマンドはClaude Code（開発者向けのCLI）専用です。デスクトップアプリやCoworkでは使えないので、上のUI手順で追加してください。
 
 ### 前提となるコネクタ（任意）
 
