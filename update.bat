@@ -10,7 +10,7 @@ echo.
 echo --- add ---
 git add -A
 echo --- commit ---
-git commit -m "v0.2.0 member-assistant and sheet templates"
+git commit -m "update %DATE% %TIME%"
 echo.
 echo --- push ---
 git push
