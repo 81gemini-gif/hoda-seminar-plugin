@@ -5,16 +5,22 @@
   },
   "metadata": {
     "description": "保田研究会の活動標準を配布するマーケットプレイス",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "hoda-seminar",
       "source": "./plugins/hoda-seminar",
       "description": "保田研究会の活動標準。財務分析、スライド作法、プロジェクトワーク、実証分析、ゼミ運営の型をスキル化しています。",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "seminar",
-      "tags": ["corporate-finance", "esg", "human-capital", "keio-sfc", "seminar"]
+      "tags": [
+        "corporate-finance",
+        "esg",
+        "human-capital",
+        "keio-sfc",
+        "seminar"
+      ]
     }
   ]
 }

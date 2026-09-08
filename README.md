@@ -67,7 +67,7 @@ plugins/hoda-seminar/
 ├── .claude-plugin/plugin.json     プラグインのマニフェスト
 ├── README.md                      収録スキル一覧
 ├── assets/hoda-template.pptx      保田研共通フォーマット
-└── skills/                        19スキル
+└── skills/                        20スキル
 ```
 
 ### リリースする
