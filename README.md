@@ -44,11 +44,14 @@ Claude Desktop（Coworkタブ）または claude.ai で、以下の手順を **�
 
 > **注意**：`/plugin marketplace add` というコマンドはClaude Code（開発者向けのCLI）専用です。デスクトップアプリやCoworkでは使えないので、上のUI手順で追加してください。
 
-### 前提となるコネクタ（任意）
+### EDINET DB（同梱・自動で入る）
+
+プラグインに EDINET DB のMCPサーバーが同梱されています。**インストールすると自動で登録され、初回だけEDINET DBへのログインを求められます。**これでSPEEDA・Capital IQなしに、有価証券報告書ベースの財務データを取得・分析できます。
+
+### その他の推奨コネクタ（任意）
 
 | コネクタ | 用途 |
 |---|---|
-| **EDINET DB** | 財務時系列、セグメント、有報テキスト、株主構成、統合報告書、中計KPI。財務分析系スキルで実質必須 |
 | **Slack** | アナウンスの下書き、幹事チャンネルの確認 |
 | **Google Drive** | 名簿、週次シート、引き継ぎ資料、過去の発表資料の参照 |
 
@@ -65,6 +68,7 @@ Claude Desktop（Coworkタブ）または claude.ai で、以下の手順を **�
 ```
 plugins/hoda-seminar/
 ├── .claude-plugin/plugin.json     プラグインのマニフェスト
+├── .mcp.json                      同梱MCPサーバー（EDINET DB）
 ├── README.md                      収録スキル一覧
 ├── assets/hoda-template.pptx      保田研共通フォーマット
 └── skills/                        20スキル

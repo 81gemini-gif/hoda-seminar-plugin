@@ -12,7 +12,7 @@
       "name": "hoda-seminar",
       "source": "./plugins/hoda-seminar",
       "description": "保田研究会の活動標準。財務分析、スライド作法、プロジェクトワーク、実証分析、ゼミ運営の型をスキル化しています。",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "category": "seminar",
       "tags": [
         "corporate-finance",
